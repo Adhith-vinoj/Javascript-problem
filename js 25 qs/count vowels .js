@@ -1,0 +1,17 @@
+// write a program to count the numbers of vowels in a string
+let vowelsCount = (str)=>{
+    const vowels = "aeiouAEIOU";
+    let count = 0;
+
+    for ( let i = 0; i < str.length; i++){
+        if(vowels .indexOf(str[i]) !== -1){
+            count++;
+        }
+
+    }
+
+    return count;
+}
+
+console.log(vowelsCount("abcdefghi"));
+ 
