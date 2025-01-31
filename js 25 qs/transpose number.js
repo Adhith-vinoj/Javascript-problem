@@ -16,7 +16,6 @@ let transpose = (matrix)=>{
     return transNumber;
 
 }
-
 let matrix =[
              [1,2,3],
              [4,5,6],
@@ -24,4 +23,3 @@ let matrix =[
                     ];
                     
    console.log(transpose(matrix));       
-console,log

@@ -8,5 +8,5 @@ let factorial = (n)=>{
     }
     return result;
 }
-console.log(factorial(6));
+console.log(factorial(7));
 

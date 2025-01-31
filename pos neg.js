@@ -8,8 +8,9 @@ function positiveNum(num){
    }else {
       return "zero";
    }
+   
 }
 
-console.log(positiveNum());
+console.log(positiveNum(20));
 
 
