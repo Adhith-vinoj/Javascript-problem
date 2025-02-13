@@ -15,3 +15,31 @@ let vowelsCount = (str)=>{
 
 console.log(vowelsCount("abcdefghi"));
  
+let vowelsTest = () =>{
+
+
+    let input = [
+        "abcdefgh",
+        "bcdefghou",
+        "123@#eiou"
+    ]
+
+    let output = [
+        2,
+        3,
+        2
+    ]
+
+
+
+  for(let i = 0; i < input.length; i++){
+    let result = vowelsCount(input[i]);
+    if(result === output[i]){
+        console.log(`test ${i + 1} passed`)
+    }else {
+        console.log(`test ${i + 1} failed`)
+    }
+}
+};
+
+vowelsTest();

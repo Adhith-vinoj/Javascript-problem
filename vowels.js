@@ -26,3 +26,27 @@ function alphabet(val){
 }
 
 console.log(alphabet("a"));
+
+
+let testCase = () =>{
+    let input = ["a", "e", "i",];
+    let output = [
+        "vowels",
+        "vowels",
+        "consonant",
+        
+    ];
+
+    for(let i = 0; i < input.length; i++){
+        let result = alphabet( input[i]);
+        if(result === output[i]){
+            console.log(`test ${i+1}passed`)
+        }else{
+            console.log(`test ${i+1}failed`)
+        }
+    }
+
+    
+};
+
+testCase();

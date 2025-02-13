@@ -23,3 +23,30 @@ let palindromeIs = (str)=>{
 }
 
 console.log(palindromeIs("no lemon, no melon"));
+
+
+let testCae = ()=>{
+    let input = [
+        "no lemon, no melon",
+        "was it a car or a cat i saw",
+        "hello"
+    ];
+
+    let output = [
+        true,
+        true,
+        true
+    ];
+
+    for(let i = 0; i < input.length; i++){
+        let result = palindromeIs(input[i]);
+        if(result === output[i]){
+            console.log(`test ${i+1}passed`);
+        }else{
+            console.log(`test ${i+1}failed`);
+        }
+    }
+};
+
+testCae();
+

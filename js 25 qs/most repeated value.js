@@ -24,3 +24,30 @@ let reapeatedValue = (arr)=>{
 }
 
 console.log(reapeatedValue([1,2,2,3,4,5,6,2,2]));
+
+
+let mostRepeatedTest = ()=>{
+ let input = [
+    [1, 2, 3, 2, 4, 5, 6],
+    [2, 3, 3, 3, 4, 3],
+    [1, 2, 3, 4, 5, 6, 4]
+ ];
+
+ let output = [
+    2,
+    3,
+    4
+ ];
+
+
+ for(let i = 0; i < input.length; i++){
+    let number = reapeatedValue(input[i]);
+    if(number === output[i]){
+        console.log(`test${i+1} passed`)
+    }else{
+        console.log(`test ${i+1}failed`)
+    }
+ }
+
+};
+mostRepeatedTest();
