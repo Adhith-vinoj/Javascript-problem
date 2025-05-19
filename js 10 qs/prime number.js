@@ -13,7 +13,7 @@ let primeNum = (num)=>{
 console.log(primeNum(6));
 
 let testValue = () =>{
-    let input = [6, 7, 8];
+    let input = [4, 7, 8];
     let output = [
         "the number is not prime",
         "the number is prime",

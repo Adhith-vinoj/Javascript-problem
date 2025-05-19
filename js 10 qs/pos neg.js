@@ -1,6 +1,7 @@
 // Check the given number is positive, negative or zero.
 
 function positiveNum(num){
+
    if( num > 0 ){
     return "positive";
    }else if( num < 0 ){
@@ -11,7 +12,7 @@ function positiveNum(num){
    
 }
 
-console.log(positiveNum(20));
+console.log(positiveNum(10));
 
 let testValue = ()=>{
    let input = [20,10,0];

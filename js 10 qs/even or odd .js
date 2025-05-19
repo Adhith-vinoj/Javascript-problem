@@ -2,6 +2,7 @@
 
 
 let oddEven = (num) =>{
+    
 
     if(num % 2  === 0){
         return "given number is even"
@@ -10,7 +11,7 @@ let oddEven = (num) =>{
     }
 }
 
-console.log(oddEven(0));
+console.log(oddEven(2));
 
 let testCase = () =>{
 
@@ -26,12 +27,10 @@ let testCase = () =>{
         if(number === output[i]){
             console.log(`test ${i+1} passed`)
         }else{
-            console.log(`test ${i+1}failed`)
+            console.log(`test ${i+1}failed`) 
         }
     }
 };
 testCase();
-
-
 
 

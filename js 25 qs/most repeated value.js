@@ -1,4 +1,4 @@
-
+ 
 // write a program to find the most repeated value in an array of numbers
 let reapeatedValue = (arr)=>{
   
@@ -51,3 +51,8 @@ let mostRepeatedTest = ()=>{
 
 };
 mostRepeatedTest();
+
+
+
+
+console.log
