@@ -171,6 +171,31 @@ let nestedArray = (arr)=>{
     }
   }
   return result;
-  
 }
+
 console.log(nestedArray([1,2,3,[4,5],8,7,[6]]))
+
+
+
+let reverseContent =(str)=>{
+ const values = str.split(" ")
+ let result = [];
+ for(let i = values.length-1; i>= 0 ;i--){
+  result.push(values[i])
+ }
+ return result.join(" ")
+}
+console.log(reverseContent("i love you"))
+
+
+let reverse=(str)=>{
+
+  let result = "";
+  for(let i =str.length-1; i>=0; i--){
+    result += str[i];
+  }
+  return result;
+
+}
+
+console.log(reverse("adhith"))
