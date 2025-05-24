@@ -188,8 +188,8 @@ let reverseContent =(str)=>{
 console.log(reverseContent("i love you"))
 
 
-let reverse=(str)=>{
 
+let reverse=(str)=>{
   let result = "";
   for(let i =str.length-1; i>=0; i--){
     result += str[i];
@@ -199,3 +199,19 @@ let reverse=(str)=>{
 }
 
 console.log(reverse("adhith"))
+
+
+let numberArray=(arr)=>{
+  let duplicates = [];
+  for(let i =0; i<arr.length; i++){
+    for(j = i+1; j<arr.length; j++){
+      if(arr[i] === arr[j] && !duplicates.includes(arr[i])){
+        duplicates.push(arr[i])
+      }
+    }
+  }
+
+  return duplicates;
+}
+
+console.log(numberArray([1,2,3,2,2,4,55,29,55]))
